@@ -1,0 +1,49 @@
+{
+  "name": "dark-light-theme",
+  "version": "1.0.1",
+  "description": "An npm package with built in navbar and dark and light mode toggler",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyojit21/dark-light-theme.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Priyojit Kundu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/priyojit21/dark-light-theme/issues"
+  },
+  "homepage": "https://github.com/priyojit21/dark-light-theme#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/plugin-external-helpers": "^7.22.5",
+    "@babel/plugin-syntax-jsx": "^7.22.5",
+    "@babel/plugin-transform-runtime": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-stage-1": "^7.8.3",
+    "@lopatnov/rollup-plugin-uglify": "^2.1.5",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "babel-preset-minify": "^0.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "styled-jsx": "^5.1.2"
+  }
+}
